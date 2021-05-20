@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/> 
+    <title> Sign Up </title>
+    <meta name="keywords" content="Restaurant Name">
+    <meta name="description" content="The description of the restaurant.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel='shortcut icon' type='image/x-icon' href='images/logo.png'/>
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Gentium+Basic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">    
+    <!-- bootstrap -->    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery -->    
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+</head>
+    <body>
+        <nav class="nav-part"> <!-- pjesa e navigimit -->
+            <a href="home.html">
+            <p> RESTAURANT NAME BAR & GRILL </p></a>
+            <ul class="nav-links">
+                <li><a href="home.html"> Home </a></li>
+                <li><a href="menu.html"> Menu </a></li>
+                <li><a href="reservations.html"> Reservations </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+            </ul>
+            <div class="mobile-menu"> 
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav> <!-- fundi i nav -->
+        
+        <div class="thecontainer">    
+            <div class="row">
+                <div class="theheader col-lg-12 col-md-12 col-sm-12 col-xs-12"></div>
+            </div>
+            
+            <br>    
+            
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <!-- Material form register -->
+                <div class="card">
+                    <h5 class="card-header info-color white-text text-center py-4">
+                        <strong>Sign up</strong>
+                    </h5>
+                    <!--Card content-->
+                    <div class="card-body px-lg-5 pt-0">
+                        <!-- Form -->
+                        <form class="text-center" style="color: #757575;" action="#!">
+
+                            <div class="form-row">
+                                <div class="col">
+                                    <!-- First name -->
+                                    <div class="md-form">
+                                        <input type="text" id="materialRegisterFormFirstName" class="form-control">
+                                        <label for="materialRegisterFormFirstName">First name</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <!-- Last name -->
+                                    <div class="md-form">
+                                        <input type="email" id="materialRegisterFormLastName" class="form-control">
+                                        <label for="materialRegisterFormLastName">Last name</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- E-mail -->
+                            <div class="md-form mt-0">
+                                <input type="email" id="materialRegisterFormEmail" class="form-control">
+                                <label for="materialRegisterFormEmail">E-mail</label>
+                            </div>
+
+                            <!-- Password -->
+                            <div class="md-form">
+                                <input type="password" id="materialRegisterFormPassword" class="form-control" aria-describedby="materialRegisterFormPasswordHelpBlock">
+                                <label for="materialRegisterFormPassword">Password</label>
+                                <small id="materialRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+                                    At least 8 characters and 1 digit
+                                </small>
+                            </div>
+
+                            <!-- Phone number -->
+                            <div class="md-form">
+                                <input type="password" id="materialRegisterFormPhone" class="form-control" aria-describedby="materialRegisterFormPhoneHelpBlock">
+                                <label for="materialRegisterFormPhone">Phone number</label>
+                                <small id="materialRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
+                                    Optional - for two step authentication
+                                </small>
+                            </div>
+
+                            <!-- Newsletter -->
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="materialRegisterFormNewsletter"> &nbsp;&nbsp;&nbsp;
+                                <label class="form-check-label" for="materialRegisterFormNewsletter">Subscribe to our newsletter</label>
+                            </div>
+
+                            <!-- Sign up button -->
+                            <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit">Sign in</button>
+
+                            <!-- Social register -->
+                            <p>or sign up with:</p>
+
+                            <a type="button" class="btn-floating btn-fb btn-sm">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a type="button" class="btn-floating btn-tw btn-sm">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a type="button" class="btn-floating btn-li btn-sm">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a type="button" class="btn-floating btn-git btn-sm">
+                                <i class="fab fa-github"></i>
+                            </a>
+
+                            <hr>
+
+                            <!-- Terms of service -->
+                            <p>By clicking
+                                <em>Sign up</em> you agree to our
+                                <a href="" target="_blank">terms of service</a>
+                        </form>
+                    </div>
+                </div> <!-- fundi i card -->
+                </div> <!--fundi i div signup -->
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
+            </div> <!-- fundi i row -->
+
+            <br>
+            
+            <div class ="row content-footer"> <!-- footer -->
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">   
+                    <center><p> Australia's leader in Dining <br> Hospitality & Entertainment</p>
+                    <img src="images/logo.png" class="foto-logo img-fluid"><br><br>
+                    <a href="home.html" class="btn btn-info btn-lg">
+                        <span class="glyphicon glyphicon-home"></span>
+                    </a>
+                    <a href="menu.html" class="btn btn-info btn-lg">
+                        <span class="glyphicon glyphicon-cutlery"></span>
+                    </a> 
+                    <a href="reservations.html" class="btn btn-info btn-lg">
+                        <span class="glyphicon glyphicon-book"></span>
+                    </a>    
+                    <a href="contact.html" class="btn btn-info btn-lg">
+                        <span class="glyphicon glyphicon-envelope"></span>
+                    </a> 
+                    </center>      
+                </div>
+                <div class="kol2 col-lg-4 col-md-4 col-sm-12 col-xs-12">   
+                    <center><p style="text-align: left"> Restaurant Name Bar & Grill
+                    <br> Street Name, No, Place </p>
+                    <a href="#"><p> Privacy </p></a>
+                    <a href="#"><p> Terms & Condition </p></a>
+                    <a href="#"><p> Feedback &nbsp; <span class="glyphicon glyphicon-thumbs-up"></span></p></a> 
+                    <a href="#"><p> Giftcard &nbsp; <span class="glyphicon glyphicon-credit-card"></span></p></a> 
+                    </center>    
+                </div>  
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">   
+                    <p> Sign Up to our newsletter </p>
+                    <a href="signup.html"><button type="button" class="btn btn-light"> Sign Up </button></a>
+                </div>     
+            </div> <!-- fundi i footer -->    
+        </div> <!-- fundi i div-it te pergjithshem -->  
+        <!-- javascript -->
+        <script src="javascript/navbar.js"></script>
+        <!-- bootstrap js -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
